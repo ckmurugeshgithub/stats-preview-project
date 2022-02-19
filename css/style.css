@@ -1,0 +1,71 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+body{
+    background-color:  hsl(233, 47%, 7%) !important;
+    font-family: url(https://fonts.google.com/specimen/Inter);
+}
+.container1{ 
+     min-height: 100vh; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+} 
+span{
+    color:  hsl(277, 64%, 61%);
+}
+.card-text{
+    margin-top: 15px  !important;
+}
+.card{
+    color: aliceblue;
+    background-color: hsl(244, 38%, 16%) !important;
+}
+.card-body{ 
+    padding: 40px 30px 40px 50px !important;
+    color: white;
+    text-align: center;
+}
+.card-body p{
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-size: small;
+}
+.list{
+    display: block; 
+    justify-content: space-between; 
+    text-align: center !important;
+    padding: 60px 0px 0px 0px !important;
+    margin-left: 10px; 
+}
+.list h4{
+    font-size: large;
+}
+.list p{
+    font-size: small;
+}
+.item1, .item2{
+    padding-bottom: 15px !important;
+}
+.card-image{
+    position: relative;
+    opacity: 1;
+}
+.image-overlay{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
